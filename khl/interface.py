@@ -26,7 +26,6 @@ class AsyncRunnable(ABC):
     @abstractmethod
     async def start(self):
         """run the async work"""
-        ...
 
 
 class LazyLoadable(ABC):
